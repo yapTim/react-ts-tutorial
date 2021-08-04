@@ -5,6 +5,11 @@ We'll need these things installed to your system before we can start:
  - A Linux based OS (or [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) if using Windows)
  - Node.js 14 and NPM 7 (or you can use [Volta](https://volta.sh/) to manage Node.js versions)
 
+## Typescript Related Errors
+When following the tutorial you'll encounter some Typescript related errors.
+This is because Typescript is strict, so doing stuff requires a little more work.
+You can refer to [this blog post](https://fettblog.eu/typescript-react/components/#class-components) that helps you go through handling Components with Typescript.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
