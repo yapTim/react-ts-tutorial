@@ -152,7 +152,7 @@ function Game()  {
         'Go to game start';
       return (
         <li key={move}>
-          <button  style={ move==stepNumber ? { fontWeight: 'bold' } : { fontWeight: 'normal' }}  onClick={() => jumpTo(move)}>{desc}</button>
+          <button  style={ move===stepNumber ? { fontWeight: 'bold' } : { fontWeight: 'normal' }}  onClick={() => jumpTo(move)}>{desc}</button>
         </li>
       );
     });
